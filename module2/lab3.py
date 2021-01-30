@@ -6,4 +6,6 @@ dura = int(input("Event duration (minutes): "))
 totalmins=mins+dura
 nbrhour=totalmins//60
 nbrmins=totalmins%60
-print(hour+nbrhour,":",nbrmins)
+
+sa3a=(hour+nbrhour)%24
+print(sa3a,":",nbrmins)
